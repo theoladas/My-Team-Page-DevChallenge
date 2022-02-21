@@ -17,6 +17,11 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 h1 {
   font-family: "PT Serif", serif;
   font-weight: 700;
@@ -93,7 +98,4 @@ header {
 // FOOTER
 footer {
   padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
