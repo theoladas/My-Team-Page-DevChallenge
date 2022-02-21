@@ -32,6 +32,14 @@ h2 {
   font-size: 18px;
 }
 
+h3,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #a9a9a9;
+}
+
 p {
   font-weight: 400;
   font-size: 18px;
@@ -50,7 +58,7 @@ span {
 }
 
 header {
-  padding: 3em;
+  padding: 2em;
 }
 header .row .logo {
   align-self: flex-start;
@@ -63,8 +71,13 @@ header .row .info h2 {
   padding-bottom: 0.5rem;
 }
 
+.cards {
+  padding: 1em;
+}
+
 .row {
   justify-content: space-evenly;
+  padding-bottom: 2rem;
 }
 .row .card {
   position: relative;
@@ -81,4 +94,11 @@ header .row .info h2 {
   right: -35px;
   -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
+}
+
+footer {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
