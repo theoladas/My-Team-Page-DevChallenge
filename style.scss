@@ -65,11 +65,11 @@ header {
 }
 // CARDS
 .cards {
-  padding: 1em;
+  margin-bottom: 5em;
 }
 .row {
-  justify-content: space-evenly;
   padding-bottom: 2rem;
+  position: relative;
   .card {
     position: relative;
     img {
@@ -84,6 +84,10 @@ header {
       right: -35px;
       writing-mode: vertical-lr;
     }
+  }
+  .card-position {
+    position: absolute;
+    bottom: -50px;
   }
 }
 // FOOTER

@@ -72,12 +72,12 @@ header .row .info h2 {
 }
 
 .cards {
-  padding: 1em;
+  margin-bottom: 5em;
 }
 
 .row {
-  justify-content: space-evenly;
   padding-bottom: 2rem;
+  position: relative;
 }
 .row .card {
   position: relative;
@@ -94,6 +94,10 @@ header .row .info h2 {
   right: -35px;
   -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
+}
+.row .card-position {
+  position: absolute;
+  bottom: -50px;
 }
 
 footer {
