@@ -37,6 +37,12 @@ p {
   font-size: 18px;
 }
 
+span {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .footer-font {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -55,4 +61,24 @@ header .row .info {
 }
 header .row .info h2 {
   padding-bottom: 0.5rem;
+}
+
+.row {
+  justify-content: space-evenly;
+}
+.row .card {
+  position: relative;
+}
+.row .card img {
+  width: 200px;
+}
+.row .card p {
+  font-weight: 600;
+}
+.row .card span {
+  position: absolute;
+  top: 0;
+  right: -35px;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
 }/*# sourceMappingURL=style.css.map */

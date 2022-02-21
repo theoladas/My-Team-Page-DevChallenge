@@ -30,6 +30,11 @@ p {
   font-weight: 400;
   font-size: 18px;
 }
+span {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
 .footer-font {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -48,6 +53,25 @@ header {
         padding-bottom: 0.5rem;
       }
       width: 50%;
+    }
+  }
+}
+// CARDS
+.row {
+  justify-content: space-evenly;
+  .card {
+    position: relative;
+    img {
+      width: 200px;
+    }
+    p {
+      font-weight: 600;
+    }
+    span {
+      position: absolute;
+      top: 0;
+      right: -35px;
+      writing-mode: vertical-lr;
     }
   }
 }
