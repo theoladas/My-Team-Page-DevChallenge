@@ -69,29 +69,37 @@ header {
 }
 // CARDS
 .cards {
-  margin-bottom: 5em;
-}
-.row {
-  padding-bottom: 2rem;
-  position: relative;
-  .card {
+  margin-bottom: 2em;
+  .row {
+    padding-bottom: 6em;
     position: relative;
-    img {
-      width: 200px;
+    .card {
+      position: relative;
+
+      img {
+        width: 200px;
+      }
+      p {
+        font-weight: 600;
+      }
+      span {
+        position: absolute;
+        top: 0;
+        right: -35px;
+        writing-mode: vertical-lr;
+      }
     }
-    p {
-      font-weight: 600;
-    }
-    span {
+    .card-position {
       position: absolute;
-      top: 0;
-      right: -35px;
-      writing-mode: vertical-lr;
+      bottom: 20px;
     }
-  }
-  .card-position {
-    position: absolute;
-    bottom: -50px;
+    .card-position2 {
+      position: absolute;
+      bottom: 20px;
+    }
+    .card-position2 {
+      align-content: flex-end;
+    }
   }
 }
 // FOOTER

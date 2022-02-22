@@ -77,32 +77,38 @@ header .row .info h2 {
 }
 
 .cards {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
-
-.row {
-  padding-bottom: 2rem;
+.cards .row {
+  padding-bottom: 6em;
   position: relative;
 }
-.row .card {
+.cards .row .card {
   position: relative;
 }
-.row .card img {
+.cards .row .card img {
   width: 200px;
 }
-.row .card p {
+.cards .row .card p {
   font-weight: 600;
 }
-.row .card span {
+.cards .row .card span {
   position: absolute;
   top: 0;
   right: -35px;
   -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
 }
-.row .card-position {
+.cards .row .card-position {
   position: absolute;
-  bottom: -50px;
+  bottom: 20px;
+}
+.cards .row .card-position2 {
+  position: absolute;
+  bottom: 20px;
+}
+.cards .row .card-position2 {
+  align-content: flex-end;
 }
 
 footer {
