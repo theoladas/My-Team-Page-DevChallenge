@@ -31,7 +31,7 @@
 
 ## Overview
 
-![Screenshot 2022-02-22 at 12 32 09](https://user-images.githubusercontent.com/67963370/155133318-e6b676b1-a9e2-440e-a0fa-39bb1373d23b.png)
+![Screenshot 2022-02-22 at 13 09 14](https://user-images.githubusercontent.com/67963370/155138802-aab6d69e-2f64-4660-9194-dcde01c347d2.png)
 
 ### Built With
 
