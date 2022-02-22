@@ -66,11 +66,27 @@ span {
 header {
   padding: 2em;
 }
+@media (max-width: 768px) {
+  header .row {
+    flex-wrap: wrap;
+  }
+}
 header .row .logo {
   align-self: flex-start;
 }
+@media (max-width: 768px) {
+  header .row .logo {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+}
 header .row .info {
   width: 40%;
+}
+@media (max-width: 768px) {
+  header .row .info {
+    width: 100%;
+  }
 }
 header .row .info h2 {
   padding-bottom: 0.5rem;
@@ -82,6 +98,23 @@ header .row .info h2 {
 .cards .row {
   padding-bottom: 6em;
   position: relative;
+}
+@media (max-width: 1070px) {
+  .cards .row {
+    padding-bottom: 2em;
+  }
+}
+@media (max-width: 1024px) {
+  .cards .row {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .cards .row {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
 .cards .row .card {
   position: relative;
@@ -103,12 +136,45 @@ header .row .info h2 {
   position: absolute;
   bottom: 20px;
 }
+@media (max-width: 1070px) {
+  .cards .row .card-position {
+    position: relative;
+    bottom: 0;
+  }
+}
+.cards .row .card-position span {
+  position: absolute;
+  top: 0;
+  right: -35px;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+}
+@media (max-width: 1070px) {
+  .cards .row .card-position span {
+    right: -40px;
+  }
+}
 .cards .row .card-position2 {
   position: absolute;
   bottom: 20px;
 }
-.cards .row .card-position2 {
-  align-content: flex-end;
+@media (max-width: 1070px) {
+  .cards .row .card-position2 {
+    position: relative;
+    bottom: 0;
+  }
+}
+.cards .row .card-position2 span {
+  position: absolute;
+  top: 0;
+  right: -35px;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+}
+@media (max-width: 1070px) {
+  .cards .row .card-position2 span {
+    right: -40px;
+  }
 }
 
 footer {

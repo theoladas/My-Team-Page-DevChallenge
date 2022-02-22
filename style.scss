@@ -56,11 +56,21 @@ span {
 header {
   padding: 2em;
   .row {
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
     .logo {
       align-self: flex-start;
+      @media (max-width: 768px) {
+        width: 100%;
+        padding-bottom: 2rem;
+      }
     }
     .info {
       width: 40%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
       h2 {
         padding-bottom: 0.5rem;
       }
@@ -73,9 +83,19 @@ header {
   .row {
     padding-bottom: 6em;
     position: relative;
+    @media (max-width: 1070px) {
+      padding-bottom: 2em;
+    }
+    @media (max-width: 1024px) {
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
     .card {
       position: relative;
-
       img {
         width: 200px;
       }
@@ -92,13 +112,36 @@ header {
     .card-position {
       position: absolute;
       bottom: 20px;
+      @media (max-width: 1070px) {
+        position: relative;
+        bottom: 0;
+      }
+      span {
+        position: absolute;
+        top: 0;
+        right: -35px;
+        writing-mode: vertical-lr;
+        @media (max-width: 1070px) {
+          right: -40px;
+        }
+      }
     }
     .card-position2 {
       position: absolute;
       bottom: 20px;
-    }
-    .card-position2 {
-      align-content: flex-end;
+      @media (max-width: 1070px) {
+        position: relative;
+        bottom: 0;
+      }
+      span {
+        position: absolute;
+        top: 0;
+        right: -35px;
+        writing-mode: vertical-lr;
+        @media (max-width: 1070px) {
+          right: -40px;
+        }
+      }
     }
   }
 }
