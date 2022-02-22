@@ -177,7 +177,7 @@ header {
         }
       }
     }
-    .card-position2 {
+    .card-position5 {
       position: relative;
       bottom: -90px;
       @media (max-width: 1135px) {
@@ -216,25 +216,7 @@ header {
         }
       }
     }
-    .card-position4 {
-      @media (max-width: 1135px) {
-        position: relative;
-        bottom: -90px;
-        span {
-          position: absolute;
-          top: 49px;
-          right: 7px;
-          writing-mode: vertical-lr;
-          @media (max-width: 548px) {
-            right: -8px;
-            top: 18px;
-          }
-          @media (max-width: 405px) {
-            right: -2px;
-          }
-        }
-      }
-    }
+
     .card-position6 {
       @media (max-width: 1135px) {
         position: relative;
@@ -261,7 +243,7 @@ footer {
   padding: 1rem;
   h3,
   a {
-    @media (max-width: 340px) {
+    @media (max-width: 370px) {
       font-size: 10px;
     }
   }

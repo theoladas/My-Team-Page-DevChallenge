@@ -228,16 +228,16 @@ header .row .info h2 {
     right: -2px;
   }
 }
-.cards .row .card-position2 {
+.cards .row .card-position5 {
   position: relative;
   bottom: -90px;
 }
 @media (max-width: 1135px) {
-  .cards .row .card-position2 {
+  .cards .row .card-position5 {
     position: static;
   }
 }
-.cards .row .card-position2 span {
+.cards .row .card-position5 span {
   position: absolute;
   top: 49px;
   right: 7px;
@@ -245,65 +245,41 @@ header .row .info h2 {
       writing-mode: vertical-lr;
 }
 @media (max-width: 1135px) {
-  .cards .row .card-position2 span {
+  .cards .row .card-position5 span {
     position: relative;
     top: -398px;
     left: 270px;
   }
 }
 @media (max-width: 768px) {
-  .cards .row .card-position2 span {
+  .cards .row .card-position5 span {
     position: relative;
     top: -325px;
     left: 215px;
   }
 }
 @media (max-width: 658px) {
-  .cards .row .card-position2 span {
+  .cards .row .card-position5 span {
     position: relative;
     top: -250px;
     left: 165px;
   }
 }
 @media (max-width: 548px) {
-  .cards .row .card-position2 span {
+  .cards .row .card-position5 span {
     left: 155px;
   }
 }
 @media (max-width: 405px) {
-  .cards .row .card-position2 span {
+  .cards .row .card-position5 span {
     left: 125px;
     top: -200px;
   }
 }
 @media (max-width: 340px) {
-  .cards .row .card-position2 span {
+  .cards .row .card-position5 span {
     left: 105px;
     top: -170px;
-  }
-}
-@media (max-width: 1135px) {
-  .cards .row .card-position4 {
-    position: relative;
-    bottom: -90px;
-  }
-  .cards .row .card-position4 span {
-    position: absolute;
-    top: 49px;
-    right: 7px;
-    -ms-writing-mode: tb-lr;
-        writing-mode: vertical-lr;
-  }
-}
-@media (max-width: 1135px) and (max-width: 548px) {
-  .cards .row .card-position4 span {
-    right: -8px;
-    top: 18px;
-  }
-}
-@media (max-width: 1135px) and (max-width: 405px) {
-  .cards .row .card-position4 span {
-    right: -2px;
   }
 }
 @media (max-width: 1135px) {
@@ -334,7 +310,7 @@ header .row .info h2 {
 footer {
   padding: 1rem;
 }
-@media (max-width: 340px) {
+@media (max-width: 370px) {
   footer h3,
 footer a {
     font-size: 10px;
