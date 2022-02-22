@@ -80,6 +80,11 @@ header .row .logo {
     padding-bottom: 2rem;
   }
 }
+@media (max-width: 430px) {
+  header .row .logo h1 {
+    font-size: 28px;
+  }
+}
 header .row .info {
   width: 40%;
 }
@@ -91,6 +96,16 @@ header .row .info {
 header .row .info h2 {
   padding-bottom: 0.5rem;
 }
+@media (max-width: 430px) {
+  header .row .info h2 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 430px) {
+  header .row .info p {
+    font-size: 16px;
+  }
+}
 
 .cards {
   margin-bottom: 2em;
@@ -101,9 +116,19 @@ header .row .info h2 {
   padding-bottom: 3em;
   position: relative;
 }
+@media (max-width: 548px) {
+  .cards .row {
+    padding-bottom: 0;
+  }
+}
 .cards .row .card {
   position: relative;
   padding: 3rem;
+}
+@media (max-width: 548px) {
+  .cards .row .card {
+    padding: 1rem;
+  }
 }
 .cards .row .card img {
   width: 250px;
@@ -113,8 +138,23 @@ header .row .info h2 {
     width: 200px;
   }
 }
+@media (max-width: 658px) {
+  .cards .row .card img {
+    width: 150px;
+  }
+}
+@media (max-width: 405px) {
+  .cards .row .card img {
+    width: 120px;
+  }
+}
 .cards .row .card p {
   font-weight: 600;
+}
+@media (max-width: 405px) {
+  .cards .row .card p {
+    font-size: 14px;
+  }
 }
 .cards .row .card span {
   position: absolute;
@@ -122,6 +162,19 @@ header .row .info h2 {
   right: 7px;
   -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
+}
+@media (max-width: 548px) {
+  .cards .row .card span {
+    font-size: 14px;
+    right: -8px;
+    top: 18px;
+  }
+}
+@media (max-width: 405px) {
+  .cards .row .card span {
+    font-size: 10px;
+    right: -2px;
+  }
 }
 .cards .row .card-position {
   position: relative;
@@ -133,6 +186,17 @@ header .row .info h2 {
   right: 7px;
   -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
+}
+@media (max-width: 548px) {
+  .cards .row .card-position span {
+    right: -8px;
+    top: 18px;
+  }
+}
+@media (max-width: 405px) {
+  .cards .row .card-position span {
+    right: -2px;
+  }
 }
 .cards .row .card-position2 {
   position: relative;
@@ -157,6 +221,31 @@ header .row .info h2 {
     left: 270px;
   }
 }
+@media (max-width: 768px) {
+  .cards .row .card-position2 span {
+    position: relative;
+    top: -325px;
+    left: 215px;
+  }
+}
+@media (max-width: 658px) {
+  .cards .row .card-position2 span {
+    position: relative;
+    top: -250px;
+    left: 165px;
+  }
+}
+@media (max-width: 548px) {
+  .cards .row .card-position2 span {
+    left: 155px;
+  }
+}
+@media (max-width: 405px) {
+  .cards .row .card-position2 span {
+    left: 125px;
+    top: -200px;
+  }
+}
 @media (max-width: 1135px) {
   .cards .row .card-position4 {
     position: relative;
@@ -170,6 +259,17 @@ header .row .info h2 {
         writing-mode: vertical-lr;
   }
 }
+@media (max-width: 1135px) and (max-width: 548px) {
+  .cards .row .card-position4 span {
+    right: -8px;
+    top: 18px;
+  }
+}
+@media (max-width: 1135px) and (max-width: 405px) {
+  .cards .row .card-position4 span {
+    right: -2px;
+  }
+}
 @media (max-width: 1135px) {
   .cards .row .card-position6 {
     position: relative;
@@ -181,6 +281,17 @@ header .row .info h2 {
     right: 7px;
     -ms-writing-mode: tb-lr;
         writing-mode: vertical-lr;
+  }
+}
+@media (max-width: 1135px) and (max-width: 548px) {
+  .cards .row .card-position6 span {
+    right: -8px;
+    top: 18px;
+  }
+}
+@media (max-width: 1135px) and (max-width: 405px) {
+  .cards .row .card-position6 span {
+    right: -2px;
   }
 }
 
