@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -16,15 +17,26 @@ body {
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 h1 {
@@ -66,13 +78,17 @@ span {
 header {
   padding: 2em;
 }
+
 header .row .logo {
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   width: 50%;
 }
+
 header .row .info {
   width: 50%;
 }
+
 header .row .info h2 {
   padding-bottom: 0.5rem;
 }
@@ -85,22 +101,28 @@ header .row .info h2 {
   padding-bottom: 2rem;
   position: relative;
 }
+
 .row .card {
   position: relative;
 }
+
 .row .card img {
   width: 200px;
 }
+
 .row .card p {
   font-weight: 600;
 }
+
 .row .card span {
   position: absolute;
   top: 0;
   right: -35px;
-  -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
 }
+
 .row .card-position {
   position: absolute;
   bottom: -50px;
@@ -108,4 +130,5 @@ header .row .info h2 {
 
 footer {
   padding: 1rem;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
