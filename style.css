@@ -110,10 +110,9 @@ header .row .info h2 {
     flex-wrap: wrap;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .cards .row {
     flex-wrap: wrap;
-    justify-content: space-evenly;
   }
 }
 .cards .row .card {
@@ -121,6 +120,11 @@ header .row .info h2 {
 }
 .cards .row .card img {
   width: 200px;
+}
+@media (max-width: 790px) {
+  .cards .row .card img {
+    width: 300px;
+  }
 }
 .cards .row .card p {
   font-weight: 600;
@@ -142,6 +146,16 @@ header .row .info h2 {
     bottom: 0;
   }
 }
+@media (max-width: 820px) {
+  .cards .row .card-position {
+    position: static;
+  }
+}
+@media (max-width: 790px) {
+  .cards .row .card-position {
+    position: relative;
+  }
+}
 .cards .row .card-position span {
   position: absolute;
   top: 0;
@@ -154,6 +168,16 @@ header .row .info h2 {
     right: -40px;
   }
 }
+@media (max-width: 820px) {
+  .cards .row .card-position span {
+    right: 230px;
+  }
+}
+@media (max-width: 790px) {
+  .cards .row .card-position span {
+    right: -35px;
+  }
+}
 .cards .row .card-position2 {
   position: absolute;
   bottom: 20px;
@@ -162,6 +186,16 @@ header .row .info h2 {
   .cards .row .card-position2 {
     position: relative;
     bottom: 0;
+  }
+}
+@media (max-width: 820px) {
+  .cards .row .card-position2 {
+    position: static;
+  }
+}
+@media (max-width: 790px) {
+  .cards .row .card-position2 {
+    position: relative;
   }
 }
 .cards .row .card-position2 span {
@@ -174,6 +208,16 @@ header .row .info h2 {
 @media (max-width: 1070px) {
   .cards .row .card-position2 span {
     right: -40px;
+  }
+}
+@media (max-width: 820px) {
+  .cards .row .card-position2 span {
+    right: 230px;
+  }
+}
+@media (max-width: 790px) {
+  .cards .row .card-position2 span {
+    right: -35px;
   }
 }
 

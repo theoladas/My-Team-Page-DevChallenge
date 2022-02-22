@@ -90,14 +90,16 @@ header {
       align-items: center;
       flex-wrap: wrap;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 820px) {
       flex-wrap: wrap;
-      justify-content: space-evenly;
     }
     .card {
       position: relative;
       img {
         width: 200px;
+        @media (max-width: 790px) {
+          width: 300px;
+        }
       }
       p {
         font-weight: 600;
@@ -116,6 +118,12 @@ header {
         position: relative;
         bottom: 0;
       }
+      @media (max-width: 820px) {
+        position: static;
+      }
+      @media (max-width: 790px) {
+        position: relative;
+      }
       span {
         position: absolute;
         top: 0;
@@ -123,6 +131,12 @@ header {
         writing-mode: vertical-lr;
         @media (max-width: 1070px) {
           right: -40px;
+        }
+        @media (max-width: 820px) {
+          right: 230px;
+        }
+        @media (max-width: 790px) {
+          right: -35px;
         }
       }
     }
@@ -133,6 +147,12 @@ header {
         position: relative;
         bottom: 0;
       }
+      @media (max-width: 820px) {
+        position: static;
+      }
+      @media (max-width: 790px) {
+        position: relative;
+      }
       span {
         position: absolute;
         top: 0;
@@ -140,6 +160,12 @@ header {
         writing-mode: vertical-lr;
         @media (max-width: 1070px) {
           right: -40px;
+        }
+        @media (max-width: 820px) {
+          right: 230px;
+        }
+        @media (max-width: 790px) {
+          right: -35px;
         }
       }
     }
