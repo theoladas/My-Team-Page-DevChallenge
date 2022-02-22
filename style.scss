@@ -237,4 +237,10 @@ header {
 // FOOTER
 footer {
   padding: 1rem;
+  h3,
+  a {
+    @media (max-width: 340px) {
+      font-size: 10px;
+    }
+  }
 }

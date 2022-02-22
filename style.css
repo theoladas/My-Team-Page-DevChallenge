@@ -297,4 +297,10 @@ header .row .info h2 {
 
 footer {
   padding: 1rem;
+}
+@media (max-width: 340px) {
+  footer h3,
+footer a {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
