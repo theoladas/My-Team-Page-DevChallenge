@@ -82,6 +82,7 @@ header {
   margin-bottom: 2em;
   .row {
     flex-wrap: wrap;
+    justify-content: space-evenly;
     padding-bottom: 3em;
     position: relative;
     .card {
@@ -89,6 +90,9 @@ header {
       padding: 3rem;
       img {
         width: 250px;
+        @media (max-width: 769px) {
+          width: 200px;
+        }
       }
       p {
         font-weight: 600;
@@ -113,11 +117,43 @@ header {
     .card-position2 {
       position: relative;
       bottom: -90px;
+      @media (max-width: 1135px) {
+        position: static;
+      }
       span {
         position: absolute;
         top: 49px;
         right: 7px;
         writing-mode: vertical-lr;
+        @media (max-width: 1135px) {
+          position: relative;
+          top: -398px;
+          left: 270px;
+        }
+      }
+    }
+    .card-position4 {
+      @media (max-width: 1135px) {
+        position: relative;
+        bottom: -90px;
+        span {
+          position: absolute;
+          top: 49px;
+          right: 7px;
+          writing-mode: vertical-lr;
+        }
+      }
+    }
+    .card-position6 {
+      @media (max-width: 1135px) {
+        position: relative;
+        bottom: -50px;
+        span {
+          position: absolute;
+          top: 49px;
+          right: 7px;
+          writing-mode: vertical-lr;
+        }
       }
     }
   }

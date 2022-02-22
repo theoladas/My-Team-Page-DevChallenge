@@ -97,6 +97,7 @@ header .row .info h2 {
 }
 .cards .row {
   flex-wrap: wrap;
+  justify-content: space-evenly;
   padding-bottom: 3em;
   position: relative;
 }
@@ -106,6 +107,11 @@ header .row .info h2 {
 }
 .cards .row .card img {
   width: 250px;
+}
+@media (max-width: 769px) {
+  .cards .row .card img {
+    width: 200px;
+  }
 }
 .cards .row .card p {
   font-weight: 600;
@@ -132,12 +138,50 @@ header .row .info h2 {
   position: relative;
   bottom: -90px;
 }
+@media (max-width: 1135px) {
+  .cards .row .card-position2 {
+    position: static;
+  }
+}
 .cards .row .card-position2 span {
   position: absolute;
   top: 49px;
   right: 7px;
   -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
+}
+@media (max-width: 1135px) {
+  .cards .row .card-position2 span {
+    position: relative;
+    top: -398px;
+    left: 270px;
+  }
+}
+@media (max-width: 1135px) {
+  .cards .row .card-position4 {
+    position: relative;
+    bottom: -90px;
+  }
+  .cards .row .card-position4 span {
+    position: absolute;
+    top: 49px;
+    right: 7px;
+    -ms-writing-mode: tb-lr;
+        writing-mode: vertical-lr;
+  }
+}
+@media (max-width: 1135px) {
+  .cards .row .card-position6 {
+    position: relative;
+    bottom: -50px;
+  }
+  .cards .row .card-position6 span {
+    position: absolute;
+    top: 49px;
+    right: 7px;
+    -ms-writing-mode: tb-lr;
+        writing-mode: vertical-lr;
+  }
 }
 
 footer {
